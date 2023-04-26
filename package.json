@@ -1,0 +1,24 @@
+{
+  "name": "employee_review",
+  "version": "1.0.0",
+  "description": "coding ninjas employee_review",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "connect-mongo": "^4.6.0",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-ejs": "^2.0.0",
+    "express-session": "^1.17.3",
+    "mongoose": "^6.5.2",
+    "nodemon": "^2.0.22",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0"
+  }
+}
